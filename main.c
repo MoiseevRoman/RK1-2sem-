@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-// ‘ункци€ дл€ нахождени€ повтор€ющихс€ слов
+//function for searching identical words
 int check(char *input, char *dict){
         for(int i=0; input[i]!='\0' && dict[i]!='\0'; i++){
             if(input[i]==dict[i]){
